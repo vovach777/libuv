@@ -42,7 +42,8 @@ INCLUDES = include/stdint-msvc2008.h \
            src/win/winapi.h \
            src/win/winsock.h
 
-OBJS = src/fs-poll.o \
+OBJS = src/duv.o \
+       src/fs-poll.o \
        src/inet.o \
        src/threadpool.o \
        src/uv-common.o \

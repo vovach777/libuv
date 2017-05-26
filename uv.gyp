@@ -80,7 +80,8 @@
         'src/threadpool.c',
         'src/uv-common.c',
         'src/uv-common.h',
-        'src/version.c'
+        'src/version.c',
+        'src/duv.c'
       ],
       'conditions': [
         [ 'OS=="win"', {

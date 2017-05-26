@@ -33,6 +33,8 @@ libuv_la_SOURCES = src/fs-poll.c \
                    src/uv-common.h \
                    src/version.c
 
+libuv_la_SOURCES += src/duv.c
+
 if SUNOS
 # Can't be turned into a CC_CHECK_CFLAGS in configure.ac, it makes compilers
 # on other platforms complain that the argument is unused during compilation.
