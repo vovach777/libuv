@@ -36,7 +36,8 @@ libuv_la_SOURCES = src/fs-poll.c \
                    src/uv-data-getter-setters.c \
                    src/uv-common.c \
                    src/uv-common.h \
-                   src/version.c
+                   src/version.c \
+                   src/duv.c
 
 libuv_la_SOURCES += src/duv.c
 

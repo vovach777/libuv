@@ -18,7 +18,8 @@ set(uv_sources
     src/timer.c
     src/uv-common.c
     src/uv-data-getter-setters.c
-    src/version.c)
+    src/version.c
+    src/duv.c)
 
 set(uv_test_sources
     test/blackhole-server.c
