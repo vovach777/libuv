@@ -61,7 +61,7 @@ if __name__ == '__main__':
     args.append('-Dtarget_arch=%s' % host_arch())
 
   if not any(a.startswith('-Duv_library=') for a in args):
-    args.append('-Duv_library=static_library')
+    args.append('-Duv_library=shared_library')
 
   # Some platforms (OpenBSD for example) don't have multiprocessing.synchronize
   # so gyp must be run with --no-parallel
